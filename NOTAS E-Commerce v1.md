@@ -2,7 +2,7 @@
 Primera versión de un E-Commerce de una tienda de ropa.
 
 
-Proyecto en el cual pude poner en práctica el manejo de eventos en JavaScript logrando: 
+Proyecto plantilla en el cual pude poner en práctica el manejo de eventos en JavaScript logrando: 
 - Crear un carrito de compras,
 - Agregar contenido dinámico a la página,
 - Eliminar elementos y realizar compra (carrito),
@@ -19,7 +19,7 @@ Algunos de los próximos cambios a realizar:
 
 // JavaScript //
 
-- Funcionalidad en el boton contacto: Pop-Up con una tarjeta de presentación del local
+- Funcionalidad en el botón "contacto": Pop-Up con una tarjeta de presentación del local
 
 - Confirmación de SI o CANCELAR para el usuario a la hora de agregar un producto al carrito (para mejorar la 
 experiencia del usuario a la hora de usar la página)
