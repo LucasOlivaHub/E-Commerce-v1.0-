@@ -11,7 +11,8 @@ Proyecto en el cual pude poner en práctica el manejo de eventos en JavaScript l
 - Profundizar conocimiento en arrays y su comportamiento
 - Trabajo con LocalStorage (almacenamiento de elementos en el navegador)
 
-Además también pude aplicar conceptos de maquetación, uso de variables en CSS, Diseño Responsivo
+
+Además también pude aplicar conceptos de maquetación, uso de variables en CSS, Diseño Responsivo (Media Queries), etc.
 
 
 Algunos de los próximos cambios a realizar:
