@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div id="headerContainer">
+       <a href="#" id="logo"><img src="imgs/logo-shop.png" alt="logo shop"><h1>Shop</h1></a>
+        <nav>
+            <a href="#"><i class="bi bi-cart2"></i>Mi Carrito</a>
+            
+            <a href="#"><i class="bi bi-chat-left-text"></i>Contacto</a>
+        </nav>
+        </div>
+    </header>
+    <aside>
+            <nav class="carrito-nav">
+                <a href="index.html" id="botonVolver" class="boton-menu">
+                        <i class="bi bi-arrow-return-left"></i>Seguir comprando
+                </a>
+
+                <a href="carrito.html" id="botonCarrito" class="boton-menu">
+                    <i class="bi bi-cart"></i>Carrito
+                </a>
+            </nav>
+    </aside>
+    
+    <p id="carrito-comprado" class="carrito-comprado disabled">¡Muchas gracias por tu compra! <i class="bi bi-emoji-laughing-fill emoji-carrito"></i></p>
+
+    <main>
+        <h2 id="carrito-titulo">Mi carrito</h2>
+        <section class="carrito-contenedor-productos">
+           <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío <i class="bi bi-emoji-frown"></i></p>
+            <section id="carrito-productos" class="carrito-productos disabled">
+                <!--Completado en JS-->                
+      
+
+            </section>
+
+            <section id="carrito-acciones" class="carrito-acciones disabled">
+                <div class="carrito-acciones-izq">
+                    <button id="btnVaciarCarrito" class="carrito-acciones-vaciar">Vaciar Carrito</button>
+                </div>
+
+                <div class="carrito-acciones-der">
+                    <div class="carrito-acciones-total">
+                        <p>Total</p>
+                        <p id="carritoTotal">$4000</p>
+                    </div>
+                    <button id="btnComprar" class="carrito-acciones-comprar">Comprar Ahora</button>
+                </div>
+            </section>
+        </section>  
+    </main>
+
+    <footer>
+        <p class="copyright">© Lucas Hernán Oliva 2023</p>
+    </footer>
+
+    <script src="js/carrito.js"></script>
+</body>
+</html>
